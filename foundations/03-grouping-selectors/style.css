@@ -1,0 +1,19 @@
+
+
+.btn-affirm {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn-no {
+    background-color: #ffff00;
+}
+
+.btn-affirm, .btn-no {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+/* 
+when grouping two elements/classes I forgot to use a comma separator due to which I was confused
+
+*/
