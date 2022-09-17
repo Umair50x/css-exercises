@@ -20,8 +20,12 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display: flex;
 }
-
+.inner-container {
+  padding-left: 20px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -34,7 +38,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.header {
+  font-weight: bold;
+  font-size: larger;
+}
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -47,7 +54,14 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.close-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.text {
+  padding: 20px 0px;
+}
 button {
   padding: 8px 16px;
   border-radius: 8px;
